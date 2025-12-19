@@ -5,7 +5,7 @@ import { cn, portableTextToPlainText } from "@/lib/utils";
 import { getAuthorData } from "@/lib/data";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
-import "../globals.css";
+import "./globals.css";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -32,7 +32,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     description: portableTextToPlainText(author.description!),
     icons: {
-      icon: author.avatar?.asset?.url 
+      icon: author.avatar?.asset?.url
         ? [{ url: author.avatar.asset.url, type: "image/jpeg", sizes: "any" }]
         : "/favicon.ico",
       shortcut: author.avatar?.asset?.url || "/favicon.ico",
