@@ -99,12 +99,44 @@ export const AUTHOR: Author = {
       children: [
         {
           _type: "span",
-          text: "I'm Pushpak Tiwari, a B.Tech AIML student passionate about AI, web technologies and community-driven innovation. I currently serve as a Google Student Ambassador, work with GDG Prayagraj as Core Team Lead and contribute to building the entrepreneurial ecosystem as the Overall Coordinator of E-Cell UCER.",
+          text: "I’m Pushpak Tiwari, a B.Tech AIML student driven by curiosity and the thrill of building things that matter. I work at the intersection of AI, web development, and creative technology exploring how digital experiences can become smarter, more intuitive and more human.",
         },
+      ],
+    },
+    {
+      _type: "block",
+      children: [
         {
           _type: "span",
-          text: " My journey began as a GDG volunteer, supporting multiple developer events and later joining the DevFest core team—an experience that strengthened my management, teamwork and real-time problem-solving skills. I've also completed a Web Development & SEO internship, where I worked on responsive design, optimization and hands-on project execution. I'm deeply curious about how AI, development and creative content can come together to build better digital experiences and solve real-world problems. Always exploring. Always learning. Always building.",
-        }
+          text: "I currently serve as a Google Student Ambassador, lead the GDG Prayagraj Core Team, and coordinate E-Cell UCER to strengthen the entrepreneurial culture on campus. My journey kicked off as a GDG volunteer, grew through developer events and DevFest projects and shaped the way I lead teams, solve problems, and move fast under pressure.",
+        },
+      ],
+    },
+    {
+      _type: "block",
+      children: [
+        {
+          _type: "span",
+          text: "Along the way, I also worked as a Web Development & SEO intern, building responsive interfaces and real product improvements.",
+        },
+      ],
+    },
+    {
+      _type: "block",
+      children: [
+        {
+          _type: "span",
+          text: "What truly excites me is this mix of tech + creativity + community. I love exploring new ideas, experimenting on projects, and pushing myself to build things that make an actual difference.",
+        },
+      ],
+    },
+    {
+      _type: "block",
+      children: [
+        {
+          _type: "span",
+          text: "Still learning. Still improving. Still building. Always.",
+        },
       ],
     },
   ],
