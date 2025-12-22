@@ -31,11 +31,6 @@ export async function generateMetadata(): Promise<Metadata> {
       template: `%s | ${author.name}`,
     },
     description: portableTextToPlainText(author.description!),
-    icons: {
-      icon: "/favicon.ico",
-      shortcut: "/favicon.ico",
-      apple: "/favicon.ico",
-    },
     openGraph: {
       title: author.name ?? "",
       description: portableTextToPlainText(author.description!),
