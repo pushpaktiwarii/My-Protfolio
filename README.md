@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 
 ## 🚀 Live Demo
 
-[Live App URL](http://localhost:3000) (Replace with deployed link)
+[Live App URL](https://www.pushpaktiwari.tech/) 
 
 ## ✨ Technologies Used
 
