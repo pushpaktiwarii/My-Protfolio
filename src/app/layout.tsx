@@ -1,5 +1,5 @@
-import Navbar from "@/components/navbar";
-import { ThemeProvider } from "@/components/theme-provider";
+import Navbar from "@/components/layout/navbar";
+import { ThemeProvider } from "@/components/providers/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { cn, portableTextToPlainText } from "@/lib/utils";
 import { getAuthorData } from "@/lib/data";

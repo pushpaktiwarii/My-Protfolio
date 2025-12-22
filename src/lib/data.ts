@@ -10,6 +10,8 @@ import {
   type Project,
 } from "@/constants/portfolio";
 
+export type { Author, WorkExperience, Education, Project };
+
 export async function getAuthorData(): Promise<Author | null> {
   return AUTHOR;
 }
