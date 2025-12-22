@@ -32,13 +32,9 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     description: portableTextToPlainText(author.description!),
     icons: {
-      icon: author.avatar?.asset?.url
-        ? [{ url: author.avatar.asset.url, type: "image/jpeg", sizes: "any" }]
-        : "/favicon.ico",
-      shortcut: author.avatar?.asset?.url || "/favicon.ico",
-      apple: author.avatar?.asset?.url
-        ? [{ url: author.avatar.asset.url, type: "image/jpeg" }]
-        : "/favicon.ico",
+      icon: "/favicon.ico",
+      shortcut: "/favicon.ico",
+      apple: "/favicon.ico",
     },
     openGraph: {
       title: author.name ?? "",
